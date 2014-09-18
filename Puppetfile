@@ -57,5 +57,38 @@ github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.1.1"
 
+#Applications
+    github "zsh"
+    github "vim"
+    github "firefox"
+    github "phpstorm"
+    github "vmware_fusion"
+    github "better_touch_tools"
+    github "chrome"
+    github "java"
+    github "iterm2"
+    github "dropbox"
+    github "alfred"
+    github "skype"
+    github "spotify"
+    github "steam"
+    github "notanional_velocity"
+    github "nmap"
+    github "sublime_text"
+    github "atom"
+    github "wget"
+    github "istatmenus4"
+    github "mtr"
+    github "crashplan"
+    github "skydrive"
+    github "caffeine"
+    github "tmux"
+    github "textmate"
+    github "teamviewer"
+
+    
+    # Configuration modules
+    github "osx"
+
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
