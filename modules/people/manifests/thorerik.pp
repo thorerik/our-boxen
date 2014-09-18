@@ -1,36 +1,53 @@
 class people::thorerik {
+    def github(name, *args)
+        options ||= if args.last.is_a? Hash
+        args.last
+        else
+        {}
+        end
+
+        if path = options.delete(:path)
+            mod name, :path => path
+        else
+            version = args.first
+            options[:repo] ||= "boxen/puppet-#{name}"
+            mod name, version, :github_tarball => options[:repo]
+        end
+    end
+    
+    
     #Applications
-    include "zsh"
-    include "vim"
-    include "firefox"
-    include "phpstorm"
-    include "vmware_fusion"
-    include "better_touch_tools"
-    include "chrome"
-    include "java"
-    include "iterm2"
-    include "dropbox"
-    include "alfred"
-    include "skype"
-    include "spotify"
-    include "steam"
-    include "notanional_velocity"
-    include "nmap"
-    include "sublime_text"
-    include "atom"
-    include "wget"
-    include "istatmenus4"
-    include "mtr"
-    include "crashplan"
-    include "skydrive"
-    include "caffeine"
-    include "tmux"
-    include "textmate"
-    include "teamviewer"
+    github "zsh"
+    github "vim"
+    github "firefox"
+    github "phpstorm"
+    github "vmware_fusion"
+    github "better_touch_tools"
+    github "chrome"
+    github "java"
+    github "iterm2"
+    github "dropbox"
+    github "alfred"
+    github "skype"
+    github "spotify"
+    github "steam"
+    github "notanional_velocity"
+    github "nmap"
+    github "sublime_text"
+    github "atom"
+    github "wget"
+    github "istatmenus4"
+    github "mtr"
+    github "crashplan"
+    github "skydrive"
+    github "caffeine"
+    github "tmux"
+    github "textmate"
+    github "teamviewer"
 
     
     # Configuration modules
-    include "include osx"
+    github "include osx"
     
     include osx::global::disable_key_press_and_hold
     include osx::global::enable_keyboard_control_access
