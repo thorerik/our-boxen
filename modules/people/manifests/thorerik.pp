@@ -1,5 +1,5 @@
 class people::thorerik {
-    def github(name, *args)
+    def github(name, args)
         options ||= if args.last.is_a? Hash
         args.last
         else
