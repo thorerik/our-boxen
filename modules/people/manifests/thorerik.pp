@@ -40,7 +40,6 @@ class people::thorerik {
     include crashplan
     include skydrive
     include caffeine
-    include textmate
     include teamviewer
 
 
@@ -76,4 +75,13 @@ class people::thorerik {
         creates => "${home}/.tmux.conf"
     }
 
+    exec { "link-dir_colors":
+        command => "ln -s ${dotfiles}/dir_colors ${home}/.dir_colors",
+        creates => "${home}/.dir_colors"
+    }
+
+
+    package { "coreutils":
+        ensure => present,
+    }
 }
