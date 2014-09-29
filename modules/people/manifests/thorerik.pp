@@ -46,7 +46,7 @@ class people::thorerik {
     $home     = "/Users/thor"
     $my       = "${home}/my"
     $dotfiles = "${my}/dotFiles"
-
+    
     file { $my:
         ensure  => directory
     }
@@ -72,7 +72,7 @@ class people::thorerik {
 
     exec { "link-tmux.conf":
         command => "ln -s ${dotfiles}/tmux.conf ${home}/.tmux.conf",
-        creates => "${home}/.tmux.conf"
+        creates => "${home}/.tmux.conf",
     }
 
     exec { "link-dir_colors":
@@ -80,8 +80,58 @@ class people::thorerik {
         creates => "${home}/.dir_colors"
     }
 
+    package { "mtr":
+        ensure => present,
+    }
+
+    package { "go":
+        ensure => present,
+    }
+
+    package { "lynx":
+        ensure => present,
+    }
+
+    package { "mercurial":
+        ensure => present,
+    }
+
+    package { "midnight-commander":
+        ensure => present,
+    }
+
+    package { "mobile-shell":
+        ensure => present,
+    }
+
+    package { "libssh2":
+            ensure => present,
+    }
+
+    package { "putty":
+        ensure => present,
+    }
+
+    package { "pwgen":
+        ensure => present,
+    }
+
+    package { "ssh-copy-id":
+        ensure => present,
+    }
+
+    package { "sqlite":
+        ensure => present,
+    }
 
     package { "coreutils":
         ensure => present,
     }
+
+    homebrew::tap {
+        'nviennot/tmate':
+    } -> package { 'tmate':
+        ensure => present,
+    }
+
 }
