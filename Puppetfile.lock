@@ -184,11 +184,6 @@ GITHUBTARBALL
     teamviewer (1.0.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-textmate
-  specs:
-    textmate (1.1.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-tmux
   specs:
     tmux (1.0.2)
@@ -274,7 +269,6 @@ DEPENDENCIES
   sublime_text (= 1.0.1)
   sudo (= 1.0.0)
   teamviewer (= 1.0.1)
-  textmate (= 1.1.0)
   tmux (= 1.0.2)
   vim (= 1.0.5)
   vmware_fusion (= 1.2.0)

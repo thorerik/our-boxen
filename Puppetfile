@@ -83,7 +83,7 @@ github "crashplan", "1.0.1"
 github "skydrive", "1.0.1"
 github "caffeine", "1.0.0"
 github "tmux", "1.0.2"
-github "textmate", "1.1.0"
+#github "textmate", "1.1.0"
 github "teamviewer", "1.0.1"
  
 # Configuration modules
