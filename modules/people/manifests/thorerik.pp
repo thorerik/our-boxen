@@ -40,6 +40,8 @@ class people::thorerik {
     include caffeine
     include teamviewer
 
+    include projects::all
+
 
     $home     = "/Users/thor"
     $my       = "${home}/my"
