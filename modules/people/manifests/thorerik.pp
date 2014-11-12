@@ -1,7 +1,5 @@
 class people::thorerik {
 
-    notify { 'class people::thorerik declared': }
-
     include osx::global::disable_key_press_and_hold
     include osx::global::enable_keyboard_control_access
     include osx::global::expand_print_dialog
@@ -46,7 +44,7 @@ class people::thorerik {
     $home     = "/Users/thor"
     $my       = "${home}/my"
     $dotfiles = "${my}/dotFiles"
-    
+
     file { $my:
         ensure  => directory
     }
@@ -128,10 +126,13 @@ class people::thorerik {
         ensure => present,
     }
 
+    package { "reattach-to-user-namespace":
+        ensure => present,
+    }
+
     homebrew::tap {
         'nviennot/tmate':
     } -> package { 'tmate':
         ensure => present,
     }
-
 }
