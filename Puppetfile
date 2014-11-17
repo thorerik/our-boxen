@@ -57,6 +57,18 @@ github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 
+github "pcre",        "1.0.0"
+github "libtool",     "1.0.0"
+github "autoconf",    "1.0.0"
+github "libpng",      "1.0.0"
+github "mysql",       "1.99.18"
+
+#mod "puppet-php",
+#  :git => "https://github.com/webflo/puppet-php.git",
+#  :ref => 'yosemite'
+
+
+
 #Applications
 github "zsh", "1.0.0"
 github "vim", "1.0.5"
@@ -85,7 +97,7 @@ github "caffeine", "1.0.0"
 github "tmux", "1.0.2"
 #github "textmate", "1.1.0"
 github "teamviewer", "1.0.1"
- 
+
 # Configuration modules
 github "osx", "2.7.1"
 

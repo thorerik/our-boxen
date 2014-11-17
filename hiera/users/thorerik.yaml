@@ -1,1 +1,2 @@
 boxen::security::screensaver_delay_sec: 0
+mysql::socket: '%{::boxen::config::datadir}/mysql/socket'

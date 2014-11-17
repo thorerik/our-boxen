@@ -42,7 +42,6 @@ class people::thorerik {
 
     include projects::all
 
-
     $home     = "/Users/thor"
     $my       = "${home}/my"
     $dotfiles = "${my}/dotFiles"
