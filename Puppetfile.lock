@@ -21,12 +21,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (3.10.1)
+    boxen (3.10.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-brewcask
   specs:
-    brewcask (0.0.4)
+    brewcask (0.0.6)
 
 GITHUBTARBALL
   remote: boxen/puppet-caffeine
@@ -66,12 +66,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
-    gcc (2.2.0)
+    gcc (2.2.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
-    git (2.7.1)
+    git (2.7.9)
 
 GITHUBTARBALL
   remote: boxen/puppet-go
@@ -81,12 +81,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.11.2)
+    homebrew (1.12.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
-    hub (1.4.0)
+    hub (1.4.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-istatmenus4
@@ -121,7 +121,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
-    nginx (1.4.4)
+    nginx (1.4.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-nmap
@@ -131,7 +131,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
   specs:
-    nodejs (4.0.0)
+    nodejs (4.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-openssl
@@ -151,7 +151,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-phantomjs
   specs:
-    phantomjs (2.3.0)
+    phantomjs (2.4.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-phpstorm
@@ -171,12 +171,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-repository
   specs:
-    repository (2.3.0)
+    repository (2.4.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (8.1.7)
+    ruby (8.5.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-skydrive
@@ -263,8 +263,8 @@ DEPENDENCIES
   atom (= 1.0.0)
   autoconf (= 1.0.0)
   better_touch_tools (= 3.0.0)
-  boxen (= 3.10.1)
-  brewcask (= 0.0.4)
+  boxen (= 3.10.4)
+  brewcask (= 0.0.6)
   caffeine (= 1.0.0)
   chrome (= 1.2.0)
   crashplan (= 1.0.1)
@@ -272,11 +272,11 @@ DEPENDENCIES
   dropbox (= 1.4.0)
   firefox (= 1.2.3)
   foreman (= 1.2.0)
-  gcc (= 2.2.0)
-  git (= 2.7.1)
+  gcc (= 2.2.1)
+  git (= 2.7.9)
   go (= 2.1.0)
-  homebrew (= 1.11.2)
-  hub (= 1.4.0)
+  homebrew (= 1.12.0)
+  hub (= 1.4.1)
   inifile (= 1.1.1)
   istatmenus4 (= 1.1.0)
   iterm2 (= 1.2.0)
@@ -285,18 +285,18 @@ DEPENDENCIES
   libtool (= 1.0.0)
   module_data (= 0.0.3)
   mysql (= 1.99.18)
-  nginx (= 1.4.4)
+  nginx (= 1.4.5)
   nmap (= 1.0.3)
-  nodejs (= 4.0.0)
+  nodejs (= 4.0.1)
   openssl (= 1.0.0)
   osx (= 2.7.1)
   pcre (= 1.0.0)
-  phantomjs (= 2.3.0)
+  phantomjs (= 2.4.0)
   phpstorm (= 1.0.5)
   pkgconfig (= 1.0.0)
   python (= 2.0.0)
-  repository (= 2.3.0)
-  ruby (= 8.1.7)
+  repository (= 2.4.1)
+  ruby (= 8.5.2)
   skydrive (= 1.0.1)
   skype (= 1.0.9)
   spotify (= 1.0.2)

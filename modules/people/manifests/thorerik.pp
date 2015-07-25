@@ -104,7 +104,7 @@ class people::thorerik {
     }
 
     package { "libssh2":
-            ensure => present,
+        ensure => present,
     }
 
     package { "putty":
